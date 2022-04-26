@@ -1,0 +1,82 @@
+.login__section {
+    height: 100vh;
+    position: relative;
+    top: 55px;
+    font-size: 22px;
+}
+
+.login__section h2 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.login__div__container {
+    background-color: rgb(42, 91, 165);
+    width: 40%;
+    margin-inline: auto;
+    text-align: center;
+    position: relative;
+    height: 80%;
+    padding-top: 56px;
+    border-radius: 15px;
+}
+
+.label__input__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label__input__div>label {
+    align-self: flex-start;
+    margin-left: 54px;
+    padding-left: 5px;
+}
+
+.login__input__field {
+    padding: 12px;
+    margin-block: 12px;
+    width: 80%;
+    border: none;
+    border-radius: 12px;
+}
+
+.login__form {
+    padding-bottom: 21px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+
+.log__button button p {
+    font-size: 246px;
+}
+
+.forgot__password * {
+    margin-top: 22px;
+}
+
+.forgot__password p:first-child {
+    font-style: italic;
+}
+
+.login__form button  {
+    background-color: rgba(245, 245, 245, 0.747);
+    width: 81%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot__password span {
+    padding-left: 21px;
+    font-style: italic;
+    text-decoration: underline;
+    color: beige;
+}
